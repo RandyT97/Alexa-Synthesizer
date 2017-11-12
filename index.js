@@ -18,66 +18,75 @@ var notes = {
     aQ: rootURL + "A4Q" + endURL,
     bQ: rootURL + "B4Q" + endURL,
     hcQ: rootURL + "C5Q" + endURL,
+    c: rootURL + "C4" + endURL,
     d: rootURL + "D4" + endURL,
     e: rootURL + "E4" + endURL,
     f: rootURL + "F4" + endURL,
     g: rootURL + "G4" + endURL,
     a: rootURL + "A4" + endURL,
     b: rootURL + "B4" + endURL,
-    hc: rootURL + "C5" + endURL
+    hc: rootURL + "C5" + endURL,
+    scale: rootURL + "Scale4" + endURL
 };
 
 
 const handlers = {
 
     'LaunchRequest': function (){
-        //Give me a musical note to play. For example say:,
-        this.emit(':ask', 'Give me a musical note to play. For example say: A, B, C, or D.', 'Choose a note.');
+        this.emit(':ask', 'Welcome to Echo Synthesize. Give me a musical note to play. I can also play a scale if you would like', 'Choose a note.');
     },
 
     'AllNotes': function() {
-        const audioFile = `${notes.cQ}`;
+        const audioFile = notes.scale;
         this.emit(':ask', `${audioFile}`, 'How was that?');
     },
 
     'CNote': function() {
-        const audioFile = `${notes.c}`;
+        const audioFile = notes.c;
         this.emit(':ask', `${audioFile}`, 'How was that?');
     },
 
     'DNote': function() {
-        const audioFile = `${notes.d}`;
+        const audioFile = notes.d;
         this.emit(':ask', `${audioFile}`, 'How was that?');
     },
 
     'ENote': function() {
-        const audioFile = `${notes.e}`;
+        const audioFile = notes.e;
         this.emit(':ask', `${audioFile}`, 'How was that?');
     },
 
     'FNote': function() {
-        const audioFile = `${notes.f}`;
+        const audioFile = notes.f;
         this.emit(':ask', `${audioFile}`, 'How was that?');
     },
 
     'GNote': function() {
-        const audioFile = `${notes.g}`;
+        const audioFile = notes.g;
         this.emit(':ask', `${audioFile}`, 'How was that?.');
     },
 
     'ANote': function() {
-        const audioFile = `${notes.a}`;
+        const audioFile = notes.a;
         this.emit(':ask', `${audioFile}`, 'How was that?');
     },
 
     'BNote': function() {
-        const audioFile = `${notes.b}`;
+        const audioFile = notes.b;
         this.emit(':ask', `${audioFile}`, 'How was that?');
     },
 
     'HCNote': function() {
-        const audioFile = `${notes.hc}`;
+        const audioFile = notes.hc;
         this.emit(':ask', `${audioFile}`, 'How was that?');
+    },
+
+    'Response': function() {
+        this.emit(':tell', 'Glad I could help');
+    },
+
+    'Quit': function() {
+        this.emit(':tell', '');
     },
 
     'Unhandled': function() {

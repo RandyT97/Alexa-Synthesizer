@@ -7,7 +7,9 @@
           "All Note",
           "Play All Note",
           "Play All Notes",
-          "All Notes"
+          "All Notes",
+          "Play Scale",
+          "Play a Scale"
         ],
         "slots": []
       },
@@ -34,7 +36,8 @@
         "samples": [
           "A",
           "A Note",
-          "Play A"
+          "Play A",
+          "Play an A"
         ],
         "slots": []
       },
@@ -43,7 +46,8 @@
         "samples": [
           "B",
           "B Note",
-          "Play B"
+          "Play B",
+          "Play a B"
         ],
         "slots": []
       },
@@ -53,7 +57,8 @@
           "C",
           "Play C",
           "C Note",
-          "Give me the C"
+          "Low C",
+          "Play a C"
         ],
         "slots": []
       },
@@ -62,8 +67,8 @@
         "samples": [
           "D",
           "D Note",
-          "Give me the D",
-          "Play D"
+          "Play D",
+          "Play a D"
         ],
         "slots": []
       },
@@ -72,8 +77,8 @@
         "samples": [
           "E",
           "E Note",
-          "Give me the E",
-          "Play E"
+          "Play E",
+          "Play a E"
         ],
         "slots": []
       },
@@ -82,8 +87,8 @@
         "samples": [
           "F",
           "F Note",
-          "Give me the F",
-          "Play F"
+          "Play F",
+          "Play a F"
         ],
         "slots": []
       },
@@ -92,8 +97,8 @@
         "samples": [
           "G",
           "G Note",
-          "Give me the G",
-          "Play G"
+          "Play G",
+          "Play a G"
         ],
         "slots": []
       },
@@ -102,21 +107,32 @@
         "samples": [
           "Play high C",
           "High C",
-          "High C Note"
+          "High C Note",
+          "Play a High C"
         ],
         "slots": []
       },
       {
-        "name": "Reponse",
+        "name": "Quit",
+        "samples": [
+          "thank you",
+          "quit",
+          "stop"
+        ],
+        "slots": []
+      },
+      {
+        "name": "Response",
         "samples": [
           "Great",
           "Good",
           "Very Good",
-          "Very Great"
+          "Very Great",
+          "Pretty good"
         ],
         "slots": []
       }
     ],
-    "invocationName": "demo skill"
+    "invocationName": "synthesize"
   }
 }
