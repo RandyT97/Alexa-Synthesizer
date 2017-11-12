@@ -82,11 +82,11 @@ const handlers = {
     },
 
     'Response': function() {
-        this.emit(':tell', 'Glad I could help');
+        this.emit(':tell', 'Glad I could help.');
     },
 
     'Quit': function() {
-        this.emit(':tell', '');
+        this.emit(':tell', 'Glad I could help.');
     },
 
     'Unhandled': function() {
