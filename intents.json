@@ -1,0 +1,122 @@
+{
+  "languageModel": {
+    "intents": [
+      {
+        "name": "AllNotes",
+        "samples": [
+          "All Note",
+          "Play All Note",
+          "Play All Notes",
+          "All Notes"
+        ],
+        "slots": []
+      },
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": [
+          "no",
+          "cancel"
+        ]
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": [
+          "no",
+          "cancel"
+        ]
+      },
+      {
+        "name": "ANote",
+        "samples": [
+          "A",
+          "A Note",
+          "Play A"
+        ],
+        "slots": []
+      },
+      {
+        "name": "BNote",
+        "samples": [
+          "B",
+          "B Note",
+          "Play B"
+        ],
+        "slots": []
+      },
+      {
+        "name": "CNote",
+        "samples": [
+          "C",
+          "Play C",
+          "C Note",
+          "Give me the C"
+        ],
+        "slots": []
+      },
+      {
+        "name": "DNote",
+        "samples": [
+          "D",
+          "D Note",
+          "Give me the D",
+          "Play D"
+        ],
+        "slots": []
+      },
+      {
+        "name": "ENote",
+        "samples": [
+          "E",
+          "E Note",
+          "Give me the E",
+          "Play E"
+        ],
+        "slots": []
+      },
+      {
+        "name": "FNote",
+        "samples": [
+          "F",
+          "F Note",
+          "Give me the F",
+          "Play F"
+        ],
+        "slots": []
+      },
+      {
+        "name": "GNote",
+        "samples": [
+          "G",
+          "G Note",
+          "Give me the G",
+          "Play G"
+        ],
+        "slots": []
+      },
+      {
+        "name": "HCNote",
+        "samples": [
+          "Play high C",
+          "High C",
+          "High C Note"
+        ],
+        "slots": []
+      },
+      {
+        "name": "Reponse",
+        "samples": [
+          "Great",
+          "Good",
+          "Very Good",
+          "Very Great"
+        ],
+        "slots": []
+      }
+    ],
+    "invocationName": "demo skill"
+  }
+}
