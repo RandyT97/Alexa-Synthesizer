@@ -3,6 +3,7 @@
 
 
 ## Echo-Synthesize is an Amazon Alexa Skill:
+#### [Video Demonstration](https://www.youtube.com/watch?v=wZbvC5j5fCc)
 <h4>Function:</h4>
 Upon prompt, outputs the appropriate note in the form of an .mp3 file.
 
@@ -29,5 +30,6 @@ Provides users with a sound reference for tuning instruments.
 [Warren Oliver](http://www.github.com/warren1215)
 
 [Jarvin Young](http://www.github.com/jarvinyoung)
+
 
 
