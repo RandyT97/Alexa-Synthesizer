@@ -8,7 +8,7 @@ Upon prompt, outputs the appropriate note in the form of an .mp3 file. All .mp3 
 
 
 
-Useful for providing users with a note of reference in order to tune a instrument. 
+Provides users with a sound reference for tuning instruments.
 
 
 #### Technologies Used:
