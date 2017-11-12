@@ -4,7 +4,7 @@
 
 ## Echo-Synthesize is an Amazon Alexa Skill:
 <h4>Function:</h4>
-Upon prompt, outputs the appropriate note in the form of an .mp3 file. All .mp3 files are generated using a Sine Wave Generator.
+Upon prompt, outputs the appropriate note in the form of an .mp3 file.
 
 
 
@@ -14,13 +14,13 @@ Provides users with a sound reference for tuning instruments.
 #### Technologies Used:
 [AWS Lambda]
 
-[Node.js](For Lambda)
+[Node.js] (Lambda)
 
 [JSON Schema]
 
 [AWS S3] 
 
-[Sine Wave Generator](http://www.google.com)
+[Sine Wave Generator](http://www.audiocheck.net/audiofrequencysignalgenerator_sinetone.php) (Generation of .mp3 files)
 
 ### Contributors:
 
