@@ -25,7 +25,7 @@ Provides users with a sound reference for tuning instruments.
 
 ### Contributors:
 
-[Randy Tsui](http://www.github.com/jawyuhz)
+[Randy Tsui](http://www.github.com/RandyT97)
 
 [Warren Oliver](http://www.github.com/warren1215)
 
